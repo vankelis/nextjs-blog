@@ -1,7 +1,7 @@
 //if you want to statically generate a page at a path called /posts/<id> where <id> can be dynamic ,create a page at /pages/posts/[id].js
 // the url is made from the file where [id].js is inside (/posts) and then '/' and the id of the file to be posted
 import Layout from '../../components/layout';
-import {getAllPostsIds  , getPostData } from './posts'
+import {getAllPostsIds  , getPostData } from '../../lib/posts'
 import Head from 'next/head';
 import Date from '../../components/date';
 
